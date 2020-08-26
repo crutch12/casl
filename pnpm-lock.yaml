@@ -8,17 +8,17 @@ importers:
       '@babel/preset-env': 7.10.4_@babel+core@7.10.4
       '@rollup/plugin-babel': 5.0.4_@babel+core@7.10.4+rollup@2.21.0
       '@rollup/plugin-node-resolve': 9.0.0_rollup@2.21.0
-      '@typescript-eslint/eslint-plugin': 3.10.1_eslint@7.4.0+typescript@3.8.3
+      '@typescript-eslint/eslint-plugin': 3.10.1_eslint@7.4.0+typescript@4.0.2
       codecov: 3.7.0
       eslint: 7.4.0
       eslint-config-airbnb-base: 14.2.0_c68bb5016e109f58285db45d8cc55073
-      eslint-config-airbnb-typescript: 9.0.0_ce86c38d26c75fbe4f0ea79d6012e39a
+      eslint-config-airbnb-typescript: 9.0.0_5f70b8764d65f4896fb063f1aef3dbf9
       eslint-plugin-import: 2.22.0_eslint@7.4.0
       husky: 4.2.5
       lint-staged: 10.2.11
       rollup: 2.21.0
       rollup-plugin-terser: 7.0.0_rollup@2.21.0
-      typescript: 3.8.3
+      typescript: 4.0.2
     specifiers:
       '@babel/core': ^7.8.4
       '@babel/plugin-proposal-class-properties': ^7.8.3
@@ -37,7 +37,7 @@ importers:
       lint-staged: ^10.0.10
       rollup: ^2.10.9
       rollup-plugin-terser: ^7.0.0
-      typescript: ~3.8.0
+      typescript: ~4.0.0
   packages/casl-ability:
     dependencies:
       sift: 13.1.10
@@ -54,19 +54,19 @@ importers:
       '@semantic-release/github': 7.0.7_semantic-release@17.1.1
       '@semantic-release/npm': 7.0.5_semantic-release@17.1.1
       '@types/node': 14.0.19
-      '@typescript-eslint/eslint-plugin': 3.10.1_eslint@7.4.0+typescript@3.8.3
+      '@typescript-eslint/eslint-plugin': 3.10.1_eslint@7.4.0+typescript@4.0.2
       babel-jest: 26.1.0_@babel+core@7.10.4
       chai: 4.2.0
       chai-spies: 1.0.0_chai@4.2.0
       eslint: 7.4.0
       eslint-config-airbnb-base: 14.2.0_c68bb5016e109f58285db45d8cc55073
-      eslint-config-airbnb-typescript: 9.0.0_ce86c38d26c75fbe4f0ea79d6012e39a
+      eslint-config-airbnb-typescript: 9.0.0_5f70b8764d65f4896fb063f1aef3dbf9
       eslint-plugin-import: 2.22.0_eslint@7.4.0
       jest: 26.1.0
       rollup: 2.21.0
       rollup-plugin-terser: 7.0.0_rollup@2.21.0
       semantic-release: 17.1.1_semantic-release@17.1.1
-      typescript: 3.8.3
+      typescript: 4.0.2
     specifiers:
       '@babel/core': ^7.8.4
       '@babel/plugin-proposal-class-properties': ^7.8.3
@@ -93,13 +93,13 @@ importers:
       rollup-plugin-terser: ^7.0.0
       semantic-release: 17.1.1
       sift: ^13.0.0
-      typescript: ~3.8.0
+      typescript: ~4.0.0
   packages/casl-angular:
     devDependencies:
       '@abraham/reflection': 0.7.0
       '@angular/common': 9.1.11_68d2c000aaee11fb50bba60527b6d74a
       '@angular/compiler': 9.1.11_tslib@2.0.0
-      '@angular/compiler-cli': 9.1.11_a833587eff2e3b662a68eb5dbe9bf2a1
+      '@angular/compiler-cli': 9.1.11_695d0c5d2805624730908edd60d9b88f
       '@angular/core': 9.1.11_12ebe6a8d6263d822e23f8ca3c8fe5da
       '@angular/platform-browser': 9.1.11_36bdecacdbb0ef9d87b9ef65da06bdb1
       '@angular/platform-browser-dynamic': 9.1.11_7ff9d89af965b9836fa1537682cd93bb
@@ -115,13 +115,13 @@ importers:
       '@semantic-release/git': 9.0.0_semantic-release@17.1.1
       '@semantic-release/github': 7.0.7_semantic-release@17.1.1
       '@semantic-release/npm': 7.0.5_semantic-release@17.1.1
-      '@typescript-eslint/eslint-plugin': 3.10.1_eslint@7.4.0+typescript@3.8.3
+      '@typescript-eslint/eslint-plugin': 3.10.1_eslint@7.4.0+typescript@4.0.2
       babel-jest: 26.1.0_@babel+core@7.10.4
       chai: 4.2.0
       chai-spies: 1.0.0_chai@4.2.0
       eslint: 7.4.0
       eslint-config-airbnb-base: 14.2.0_c68bb5016e109f58285db45d8cc55073
-      eslint-config-airbnb-typescript: 9.0.0_ce86c38d26c75fbe4f0ea79d6012e39a
+      eslint-config-airbnb-typescript: 9.0.0_5f70b8764d65f4896fb063f1aef3dbf9
       eslint-plugin-import: 2.22.0_eslint@7.4.0
       jest: 26.1.0
       jest-zone-patch: 0.0.10_zone.js@0.10.3
@@ -130,7 +130,7 @@ importers:
       rxjs: 6.6.0
       semantic-release: 17.1.1_semantic-release@17.1.1
       tslib: 2.0.0
-      typescript: 3.8.3
+      typescript: 4.0.2
       zone.js: 0.10.3
     specifiers:
       '@abraham/reflection': ^0.7.0
@@ -167,7 +167,7 @@ importers:
       rxjs: ^6.0.0
       semantic-release: 17.1.1
       tslib: ^2.0.0
-      typescript: ~3.8.0
+      typescript: ~4.0.0
       zone.js: ^0.10.2
   packages/casl-aurelia:
     devDependencies:
@@ -183,7 +183,7 @@ importers:
       '@semantic-release/git': 9.0.0_semantic-release@17.1.1
       '@semantic-release/github': 7.0.7_semantic-release@17.1.1
       '@semantic-release/npm': 7.0.5_semantic-release@17.1.1
-      '@typescript-eslint/eslint-plugin': 3.10.1_eslint@7.4.0+typescript@3.8.3
+      '@typescript-eslint/eslint-plugin': 3.10.1_eslint@7.4.0+typescript@4.0.2
       aurelia-bootstrapper: 2.3.3
       aurelia-framework: 1.3.1
       aurelia-loader-nodejs: 1.1.0
@@ -195,13 +195,13 @@ importers:
       chai-spies: 1.0.0_chai@4.2.0
       eslint: 7.4.0
       eslint-config-airbnb-base: 14.2.0_c68bb5016e109f58285db45d8cc55073
-      eslint-config-airbnb-typescript: 9.0.0_ce86c38d26c75fbe4f0ea79d6012e39a
+      eslint-config-airbnb-typescript: 9.0.0_5f70b8764d65f4896fb063f1aef3dbf9
       eslint-plugin-import: 2.22.0_eslint@7.4.0
       jest: 26.1.0
       rollup: 2.21.0
       rollup-plugin-terser: 7.0.0_rollup@2.21.0
       semantic-release: 17.1.1_semantic-release@17.1.1
-      typescript: 3.8.3
+      typescript: 4.0.2
     specifiers:
       '@babel/core': ^7.8.4
       '@babel/plugin-proposal-class-properties': ^7.8.3
@@ -233,7 +233,7 @@ importers:
       rollup: ^2.10.9
       rollup-plugin-terser: ^7.0.0
       semantic-release: 17.1.1
-      typescript: ~3.8.0
+      typescript: ~4.0.0
   packages/casl-mongoose:
     devDependencies:
       '@babel/core': 7.10.4
@@ -249,20 +249,20 @@ importers:
       '@semantic-release/github': 7.0.7_semantic-release@17.1.1
       '@semantic-release/npm': 7.0.5_semantic-release@17.1.1
       '@types/mongoose': 5.7.30
-      '@typescript-eslint/eslint-plugin': 3.10.1_eslint@7.4.0+typescript@3.8.3
+      '@typescript-eslint/eslint-plugin': 3.10.1_eslint@7.4.0+typescript@4.0.2
       babel-jest: 26.1.0_@babel+core@7.10.4
       chai: 4.2.0
       chai-spies: 1.0.0_chai@4.2.0
       eslint: 7.4.0
       eslint-config-airbnb-base: 14.2.0_c68bb5016e109f58285db45d8cc55073
-      eslint-config-airbnb-typescript: 9.0.0_ce86c38d26c75fbe4f0ea79d6012e39a
+      eslint-config-airbnb-typescript: 9.0.0_5f70b8764d65f4896fb063f1aef3dbf9
       eslint-plugin-import: 2.22.0_eslint@7.4.0
       jest: 26.1.0
       mongoose: 5.9.22_mongoose@5.9.22
       rollup: 2.21.0
       rollup-plugin-terser: 7.0.0_rollup@2.21.0
       semantic-release: 17.1.1_semantic-release@17.1.1
-      typescript: 3.8.3
+      typescript: 4.0.2
     specifiers:
       '@babel/core': ^7.8.4
       '@babel/plugin-proposal-class-properties': ^7.8.3
@@ -290,7 +290,7 @@ importers:
       rollup: ^2.10.9
       rollup-plugin-terser: ^7.0.0
       semantic-release: 17.1.1
-      typescript: ~3.8.0
+      typescript: ~4.0.0
   packages/casl-react:
     devDependencies:
       '@babel/core': 7.10.4
@@ -308,13 +308,13 @@ importers:
       '@testing-library/react-hooks': 3.3.0_1fb72ba09e79ce5bfd91e4d67e1015b7
       '@types/node': 14.0.19
       '@types/react': 16.9.41
-      '@typescript-eslint/eslint-plugin': 3.10.1_eslint@7.4.0+typescript@3.8.3
+      '@typescript-eslint/eslint-plugin': 3.10.1_eslint@7.4.0+typescript@4.0.2
       babel-jest: 26.1.0_@babel+core@7.10.4
       chai: 4.2.0
       chai-spies: 1.0.0_chai@4.2.0
       eslint: 7.4.0
       eslint-config-airbnb-base: 14.2.0_c68bb5016e109f58285db45d8cc55073
-      eslint-config-airbnb-typescript: 9.0.0_ce86c38d26c75fbe4f0ea79d6012e39a
+      eslint-config-airbnb-typescript: 9.0.0_5f70b8764d65f4896fb063f1aef3dbf9
       eslint-plugin-import: 2.22.0_eslint@7.4.0
       jest: 26.1.0
       react: 16.13.1
@@ -322,7 +322,7 @@ importers:
       rollup: 2.21.0
       rollup-plugin-terser: 7.0.0_rollup@2.21.0
       semantic-release: 17.1.1_semantic-release@17.1.1
-      typescript: 3.8.3
+      typescript: 4.0.2
     specifiers:
       '@babel/core': ^7.8.4
       '@babel/plugin-proposal-class-properties': ^7.8.3
@@ -353,7 +353,7 @@ importers:
       rollup: ^2.10.9
       rollup-plugin-terser: ^7.0.0
       semantic-release: 17.1.1
-      typescript: ~3.8.0
+      typescript: ~4.0.0
   packages/casl-vue:
     devDependencies:
       '@babel/core': 7.10.4
@@ -368,20 +368,20 @@ importers:
       '@semantic-release/git': 9.0.0_semantic-release@17.1.1
       '@semantic-release/github': 7.0.7_semantic-release@17.1.1
       '@semantic-release/npm': 7.0.5_semantic-release@17.1.1
-      '@typescript-eslint/eslint-plugin': 3.10.1_eslint@7.4.0+typescript@3.8.3
+      '@typescript-eslint/eslint-plugin': 3.10.1_eslint@7.4.0+typescript@4.0.2
       '@vue/test-utils': 1.0.3_d81dac297579cfd5597855dabf60f13b
       babel-jest: 26.1.0_@babel+core@7.10.4
       chai: 4.2.0
       chai-spies: 1.0.0_chai@4.2.0
       eslint: 7.4.0
       eslint-config-airbnb-base: 14.2.0_c68bb5016e109f58285db45d8cc55073
-      eslint-config-airbnb-typescript: 9.0.0_ce86c38d26c75fbe4f0ea79d6012e39a
+      eslint-config-airbnb-typescript: 9.0.0_5f70b8764d65f4896fb063f1aef3dbf9
       eslint-plugin-import: 2.22.0_eslint@7.4.0
       jest: 26.1.0
       rollup: 2.21.0
       rollup-plugin-terser: 7.0.0_rollup@2.21.0
       semantic-release: 17.1.1_semantic-release@17.1.1
-      typescript: 3.8.3
+      typescript: 4.0.2
       vue: 2.6.11
       vue-template-compiler: 2.6.11
     specifiers:
@@ -410,7 +410,7 @@ importers:
       rollup: ^2.10.9
       rollup-plugin-terser: ^7.0.0
       semantic-release: 17.1.1
-      typescript: ~3.8.0
+      typescript: ~4.0.0
       vue: ^2.5.13
       vue-template-compiler: ^2.5.13
 lockfileVersion: 5.1
@@ -431,7 +431,7 @@ packages:
       tslib: ^1.10.0
     resolution:
       integrity: sha512-Vh5lF7zWwDK9RedmYXUc8vUXyrecR3j1mAWlTlnmcHYxxFThPzN/dr0slQcPi6nyJn0EmyRKUGvAoZx4rIb7wg==
-  /@angular/compiler-cli/9.1.11_a833587eff2e3b662a68eb5dbe9bf2a1:
+  /@angular/compiler-cli/9.1.11_695d0c5d2805624730908edd60d9b88f:
     dependencies:
       '@angular/compiler': 9.1.11_tslib@2.0.0
       canonical-path: 1.0.0
@@ -446,7 +446,7 @@ packages:
       source-map: 0.6.1
       sourcemap-codec: 1.4.8
       tslib: 2.0.0
-      typescript: 3.8.3
+      typescript: 4.0.2
       yargs: 15.3.0
     dev: true
     engines:
@@ -2136,16 +2136,16 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Dk/IDOPtOgubt/IaevIUbTgV7doaKkoorvOyYM2CMwuDyP89bekI7H4xLIwunNYiK9jhCkmc6pUrJk3cj2AB9w==
-  /@typescript-eslint/eslint-plugin/3.10.1_eslint@7.4.0+typescript@3.8.3:
+  /@typescript-eslint/eslint-plugin/3.10.1_eslint@7.4.0+typescript@4.0.2:
     dependencies:
-      '@typescript-eslint/experimental-utils': 3.10.1_eslint@7.4.0+typescript@3.8.3
+      '@typescript-eslint/experimental-utils': 3.10.1_eslint@7.4.0+typescript@4.0.2
       debug: 4.1.1
       eslint: 7.4.0
       functional-red-black-tree: 1.0.1
       regexpp: 3.1.0
       semver: 7.3.2
-      tsutils: 3.17.1_typescript@3.8.3
-      typescript: 3.8.3
+      tsutils: 3.17.1_typescript@4.0.2
+      typescript: 4.0.2
     dev: true
     engines:
       node: ^10.12.0 || >=12.0.0
@@ -2158,11 +2158,11 @@ packages:
         optional: true
     resolution:
       integrity: sha512-PQg0emRtzZFWq6PxBcdxRH3QIQiyFO3WCVpRL3fgj5oQS3CDs3AeAKfv4DxNhzn8ITdNJGJ4D3Qw8eAJf3lXeQ==
-  /@typescript-eslint/experimental-utils/3.10.1_eslint@7.4.0+typescript@3.8.3:
+  /@typescript-eslint/experimental-utils/3.10.1_eslint@7.4.0+typescript@4.0.2:
     dependencies:
       '@types/json-schema': 7.0.5
       '@typescript-eslint/types': 3.10.1
-      '@typescript-eslint/typescript-estree': 3.10.1_typescript@3.8.3
+      '@typescript-eslint/typescript-estree': 3.10.1_typescript@4.0.2
       eslint: 7.4.0
       eslint-scope: 5.1.0
       eslint-utils: 2.1.0
@@ -2174,11 +2174,11 @@ packages:
       typescript: '*'
     resolution:
       integrity: sha512-DewqIgscDzmAfd5nOGe4zm6Bl7PKtMG2Ad0KG8CUZAHlXfAKTF9Ol5PXhiMh39yRL2ChRH1cuuUGOcVyyrhQIw==
-  /@typescript-eslint/experimental-utils/3.6.1_eslint@7.4.0+typescript@3.8.3:
+  /@typescript-eslint/experimental-utils/3.6.1_eslint@7.4.0+typescript@4.0.2:
     dependencies:
       '@types/json-schema': 7.0.5
       '@typescript-eslint/types': 3.6.1
-      '@typescript-eslint/typescript-estree': 3.6.1_typescript@3.8.3
+      '@typescript-eslint/typescript-estree': 3.6.1_typescript@4.0.2
       eslint: 7.4.0
       eslint-scope: 5.1.0
       eslint-utils: 2.1.0
@@ -2190,15 +2190,15 @@ packages:
       typescript: '*'
     resolution:
       integrity: sha512-oS+hihzQE5M84ewXrTlVx7eTgc52eu+sVmG7ayLfOhyZmJ8Unvf3osyFQNADHP26yoThFfbxcibbO0d2FjnYhg==
-  /@typescript-eslint/parser/3.6.1_eslint@7.4.0+typescript@3.8.3:
+  /@typescript-eslint/parser/3.6.1_eslint@7.4.0+typescript@4.0.2:
     dependencies:
       '@types/eslint-visitor-keys': 1.0.0
-      '@typescript-eslint/experimental-utils': 3.6.1_eslint@7.4.0+typescript@3.8.3
+      '@typescript-eslint/experimental-utils': 3.6.1_eslint@7.4.0+typescript@4.0.2
       '@typescript-eslint/types': 3.6.1
-      '@typescript-eslint/typescript-estree': 3.6.1_typescript@3.8.3
+      '@typescript-eslint/typescript-estree': 3.6.1_typescript@4.0.2
       eslint: 7.4.0
       eslint-visitor-keys: 1.3.0
-      typescript: 3.8.3
+      typescript: 4.0.2
     dev: true
     engines:
       node: ^10.12.0 || >=12.0.0
@@ -2222,7 +2222,7 @@ packages:
       node: ^8.10.0 || ^10.13.0 || >=11.10.1
     resolution:
       integrity: sha512-NPxd5yXG63gx57WDTW1rp0cF3XlNuuFFB5G+Kc48zZ+51ZnQn9yjDEsjTPQ+aWM+V+Z0I4kuTFKjKvgcT1F7xQ==
-  /@typescript-eslint/typescript-estree/3.10.1_typescript@3.8.3:
+  /@typescript-eslint/typescript-estree/3.10.1_typescript@4.0.2:
     dependencies:
       '@typescript-eslint/types': 3.10.1
       '@typescript-eslint/visitor-keys': 3.10.1
@@ -2231,8 +2231,8 @@ packages:
       is-glob: 4.0.1
       lodash: 4.17.19
       semver: 7.3.2
-      tsutils: 3.17.1_typescript@3.8.3
-      typescript: 3.8.3
+      tsutils: 3.17.1_typescript@4.0.2
+      typescript: 4.0.2
     dev: true
     engines:
       node: ^10.12.0 || >=12.0.0
@@ -2243,7 +2243,7 @@ packages:
         optional: true
     resolution:
       integrity: sha512-QbcXOuq6WYvnB3XPsZpIwztBoquEYLXh2MtwVU+kO8jgYCiv4G5xrSP/1wg4tkvrEE+esZVquIPX/dxPlePk1w==
-  /@typescript-eslint/typescript-estree/3.6.1_typescript@3.8.3:
+  /@typescript-eslint/typescript-estree/3.6.1_typescript@4.0.2:
     dependencies:
       '@typescript-eslint/types': 3.6.1
       '@typescript-eslint/visitor-keys': 3.6.1
@@ -2252,8 +2252,8 @@ packages:
       is-glob: 4.0.1
       lodash: 4.17.17
       semver: 7.3.2
-      tsutils: 3.17.1_typescript@3.8.3
-      typescript: 3.8.3
+      tsutils: 3.17.1_typescript@4.0.2
+      typescript: 4.0.2
     dev: true
     engines:
       node: ^10.12.0 || >=12.0.0
@@ -3793,10 +3793,10 @@ packages:
       eslint-plugin-import: ^2.21.2
     resolution:
       integrity: sha512-Snswd5oC6nJaevs3nZoLSTvGJBvzTfnBqOIArkf3cbyTyq9UD79wOk8s+RiL6bhca0p/eRO6veczhf6A/7Jy8Q==
-  /eslint-config-airbnb-typescript/9.0.0_ce86c38d26c75fbe4f0ea79d6012e39a:
+  /eslint-config-airbnb-typescript/9.0.0_5f70b8764d65f4896fb063f1aef3dbf9:
     dependencies:
-      '@typescript-eslint/eslint-plugin': 3.10.1_eslint@7.4.0+typescript@3.8.3
-      '@typescript-eslint/parser': 3.6.1_eslint@7.4.0+typescript@3.8.3
+      '@typescript-eslint/eslint-plugin': 3.10.1_eslint@7.4.0+typescript@4.0.2
+      '@typescript-eslint/parser': 3.6.1_eslint@7.4.0+typescript@4.0.2
       eslint-config-airbnb: 18.2.0_c68bb5016e109f58285db45d8cc55073
       eslint-config-airbnb-base: 14.2.0_c68bb5016e109f58285db45d8cc55073
     dev: true
@@ -8170,10 +8170,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-lTqkx847PI7xEDYJntxZH89L2/aXInsyF2luSafe/+0fHOMjlBNXdH6th7f70qxLDhul7KZK0zC8V5ZIyHl0/g==
-  /tsutils/3.17.1_typescript@3.8.3:
+  /tsutils/3.17.1_typescript@4.0.2:
     dependencies:
       tslib: 1.13.0
-      typescript: 3.8.3
+      typescript: 4.0.2
     dev: true
     engines:
       node: '>= 6'
@@ -8249,13 +8249,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
-  /typescript/3.8.3:
+  /typescript/4.0.2:
     dev: true
     engines:
       node: '>=4.2.0'
     hasBin: true
     resolution:
-      integrity: sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
+      integrity: sha512-e4ERvRV2wb+rRZ/IQeb3jm2VxBsirQLpQhdxplZ2MEzGvDkkMmPglecnNDfSUBivMjP93vRbngYYDQqQ/78bcQ==
   /uglify-js/3.10.1:
     dev: true
     engines:
